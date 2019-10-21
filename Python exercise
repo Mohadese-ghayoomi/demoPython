@@ -1,0 +1,11 @@
+import random 
+a=random.sample(range(100),59)
+b=random.sample(range(200),59)
+print(a)
+print(b)
+list=[]
+i=0
+for i in a:
+    if i in b and i not in list:
+            list.append(i)
+print(list)
